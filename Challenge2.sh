@@ -9,7 +9,7 @@
 #Variable
 log="last"
 
-#Main function
+#Function
 Log_History () {
     $log
 }
