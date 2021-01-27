@@ -6,10 +6,13 @@
 # Date of latest revision:      1/27/21
 # Purpose:                      Output log history
 
+#Variable
 log="last"
 
+#Main function
 Log_History () {
     $log
 }
 
+#Main
 Log_History
