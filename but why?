@@ -1,0 +1,8 @@
+ #!/bin/bash
+# Why wouldn't this output the same thing twice?
+
+lshw | grep -A 15 -m 1 *-network
+echo ""
+
+pls="lshw | grep -A 15 -m 1 *-network"
+$pls
